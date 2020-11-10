@@ -26,7 +26,7 @@ Authorization: bearer token
 Action:		Method:		URL:					              	
 List		GET		http://localhost:8000/api/offices	    
 Get one		GET		http://localhost:8000/api/offices/1	    
-Create		POST 	http://localhost:8000/api/offices   	   		
+Create		POST 	http://localhost:8000/api/offices   
 Update		PUT		http://localhost:8000/api/offices/1	    		
 Delete		DELETE	http://localhost:8000/api/offices/50 	
 
