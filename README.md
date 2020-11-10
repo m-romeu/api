@@ -1,3 +1,5 @@
+This is an API CRUD sample in Laravel 8.
+
 How to use:
 
 db_name: api 
