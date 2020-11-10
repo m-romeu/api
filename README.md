@@ -22,13 +22,13 @@ email: admin@email.com
 password: apicrud
 
 Testing via Postman:
-
-Action:		Method:		URL:					            Authorization   	params:
-List		GET		http://localhost:8000/api/offices	    bearer token
-Get one		GET		http://localhost:8000/api/offices/1	    bearer token
-Create		POST 	http://localhost:8000/api/offices   	bearer token   		name:test  address:aaaaa
-Update		PUT		http://localhost:8000/api/offices/1	    bearer token		name:test  address:aaaaa
-Delete		DELETE	http://localhost:8000/api/offices/50 	bearer token
+Authorization: bearer token 
+Action:		Method:		URL:					              	
+List		GET		http://localhost:8000/api/offices	    
+Get one		GET		http://localhost:8000/api/offices/1	    
+Create		POST 	http://localhost:8000/api/offices   	   		
+Update		PUT		http://localhost:8000/api/offices/1	    		
+Delete		DELETE	http://localhost:8000/api/offices/50 	
 
 Testing via phpunit:
 If we execute phpunit it must pass all tests.
