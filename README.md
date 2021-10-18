@@ -22,7 +22,9 @@ Authorization: bearer token
 Action:		Method:		URL:
 
 Register	POST	http://localhost:8000/api/offices/register
+
 Login		POST	http://localhost:8000/api/offices/login  name: Admin   email: admin@email.com   password: apicrud
+
 List		GET		http://localhost:8000/api/offices	    
 Get one		GET		http://localhost:8000/api/offices/1	    
 Create		POST 	http://localhost:8000/api/offices   
